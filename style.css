@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f6f9fb;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h2, h4 {
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  background: #ffffff;
+  border-left: 6px solid #6366f1;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+.stat:hover {
+  transform: translateY(-3px);
+}
+.stat span {
+  display: block;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.stat.bg-green { border-color: #10b981; }
+.stat.bg-blue { border-color: #3b82f6; }
+.stat.bg-orange { border-color: #f97316; }
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+}
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+.btn-secondary {
+  background: #10b981;
+  color: white;
+}
+.btn-secondary:hover {
+  background: #059669;
+}
+
+.btn-outline-primary {
+  background: white;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+.btn-outline-primary:hover {
+  background: #3b82f6;
+  color: white;
+}
