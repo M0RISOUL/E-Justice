@@ -7,10 +7,10 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 define('BASE_URL', '/e-justice');        // adjust if in sub-folder
 define('CAPTCHA_SECRET', 'CHANGE_ME');          // random 32-char string
-define('SMTP_HOST', 'smtp.gmail.com');
-define('SMTP_USER', 'abordajejetboy20@gmail.com'); // no-reply@example.com
-define('SMTP_PASS', 'maew jboq bywb cqnc'); //email-password
-define('SMTP_PORT', 587);
+define('SMTP_HOST', 'smtp');  // use gmail smtp
+define('SMTP_USER', 'your email'); // no-reply@example.com
+define('SMTP_PASS', 'password generated'); //email-password
+define('SMTP_PORT', ); // add port 
 
 // Composer autoload
 require_once __DIR__ . '/../vendor/autoload.php';
