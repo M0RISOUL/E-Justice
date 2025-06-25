@@ -11,10 +11,6 @@ A web-based system to help lawyers, admins, and clients manage legal cases more 
 - 📊 Dashboard with Stats
 - 📎 Upload Legal Documents
 
-## Screenshot
-
-![e-Justice Screenshot](assets/img/screenshot.png)
-
 ## Technologies
 - PHP (with PDO)
 - MySQL
